@@ -1,6 +1,7 @@
 ---
 layout: default
 section: blog
+published: true
 ---
 
 <div class='listing col6 pad4h margin3'>
@@ -14,5 +15,7 @@ section: blog
     <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
   {% endfor %}
 </div>
-
+<body>
+  Here is just a short sentence of text that should be towards the bottom of the page.
+</body>
 {% include rss-link.html %}
