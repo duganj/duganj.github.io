@@ -5,6 +5,8 @@ published: true
 ---
 
 <div class='listing col6 pad4h margin3'>
+  Here is just a short sentence of text that should be towards the top of the page.
+  
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -14,7 +16,6 @@ published: true
     {% endif %}
     <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
   {% endfor %}
-  Here is just a short sentence of text that should be towards the bottom of the page.
 </div>
 
 {% include rss-link.html %}
