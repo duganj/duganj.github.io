@@ -1,10 +1,10 @@
-
+baseurl: http://duganj.com/
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: ''
-  siteurl: 'http://duganj.github.io/'
-  relativeLinks: 'http://duganj.github.io/links.jsonp'
+  siteurl: 'http://duganj.com/'
+  relativeLinks: 'http://duganj.com/links.jsonp'
   media: 'media'
   metadata:
     _posts:
