@@ -14,8 +14,7 @@ published: true
     {% endif %}
     <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
   {% endfor %}
-</div>
-<body>
   Here is just a short sentence of text that should be towards the bottom of the page.
-</body>
+</div>
+
 {% include rss-link.html %}
